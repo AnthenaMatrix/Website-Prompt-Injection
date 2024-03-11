@@ -22,7 +22,11 @@ This project is licensed under the MIT License.
 
 # Support AnthenaMatrix
 Bitcoin: bc1qxvvtgz0vf3n2cuxt0suvf39jleegpt9wawxazn
+
 Ethereum: 0xE73E90779B3e8F6D65306B40E02878f437408b4E
+
 BNB: 0xE73E90779B3e8F6D65306B40E02878f437408b4E
+
 Dogecoin: D827LpfJu9pcVc3Kky82sTrNnsE7pLGqeV
+
 Solana: AJtGEJvoVoS2eeqeHQvf7usRs2nSQM1yLtBSdKp1KBY5
