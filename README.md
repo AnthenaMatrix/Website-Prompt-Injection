@@ -18,6 +18,29 @@ To implement Website Prompt Injection attack:
 - Upon reading the hidden prompt, the AI system should execute the specified action, influencing its behavior based on the injected prompt.
 
 
+# Injection HTML Examples
+
+### Injection Example 1: CSS Hidden Elements by Display
+
+This example demonstrates Website Prompt Injection by embedding the prompt directly within the HTML markup of the webpage. The `<h2>` element containing the prompt is hidden from users using inline CSS (`display: none;`). Despite being hidden, the prompt is still accessible to AI systems that parse the webpage's content, allowing for interaction based on the injected prompt.
+
+### Injection Example 2: CSS Hidden Elements
+
+This example hides the `<h2>` element containing the prompt using CSS by setting its visibility to hidden. This ensures that the prompt is included in the HTML markup but remains invisible to users.
+
+### Injection Example 3: JavaScript Injection
+
+In this example, JavaScript is used to dynamically inject the prompt into the HTML content after the page has loaded. The `<h2>` element containing the prompt is created programmatically and appended to the document body, ensuring that it is present in the DOM but not visible to users.
+
+### Injection Example 4: Comments
+
+This example embeds the prompt within an HTML comment, making it invisible to users while remaining accessible to AI systems that parse HTML content.
+
+### Injection Example 5: Data Attributes
+
+In this example, the prompt is stored within a custom data attribute (`data-prompt`) of a `<div>` element. While the prompt is included in the HTML markup, it is not visible to users.
+
+
 # Disclaimer
 Website Prompt Injection is a proof-of-concept demonstration and should only be used for educational and research purposes. Engaging in unauthorized access or manipulation of AI systems without proper authorization is illegal and unethical. We do not condone the use of this technique for malicious purposes.
 
